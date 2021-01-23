@@ -6,10 +6,10 @@ Java based flatpak, Vocabulary Builder for GRE
 
 ![](https://github.com/fastrizwaan/vocabjava_flatpak/blob/main/screenshots/1.png)
 
-#### install flathub repo and gnome sdk 3.38
+#### install flathub repo and freedesktop sdk 20.08
 ```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.gnome.Sdk/x86_64/3.38
+flatpak install flathub org.freedesktop.Sdk/x86_64/20.08 runtime/org.freedesktop.Sdk.Extension.openjdk11/x86_64/20.08
 ```
 
 #### clone and build flatpak from yaml
