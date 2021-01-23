@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Vocabulary Builder
+Comment=GRE Vocabulary Builder
+Exec=io.github.vocabjava.sh
+Icon=io.github.vocabjava
+Terminal=false
+Categories=Education;
